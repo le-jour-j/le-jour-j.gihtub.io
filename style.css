@@ -9,11 +9,22 @@
     --fs-5: clamp(2.4881rem, 2.1594rem + 1.6435vw, 3.4331rem);
 
 
-    --bg:#212529;
-    --bg-header:hsl(210 11% 15% / 0.8);
-    --text:#fff0f6;
-    --title:white;
+    --text:#212529;
+    --bg-header:hsl(336 100% 97% / 0.8);
+    --bg:#fff0f6;
+    --title:black;
     --link:#f500b8;
+  }
+
+  @media (prefers-color-scheme: dark){
+    :root{
+        --bg:#212529;
+        --bg-header:hsl(210 11% 15% / 0.8);
+        --text:hsl(336, 100%, 97%);
+        --title:white;
+        --link:#f500b8;
+    }
+
   }
 
 *{
