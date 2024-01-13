@@ -70,3 +70,49 @@
 </body>
 </html>
 ```
+
+
+## Liens
+
+### Lien téléchargeable
+
+```html
+<a href="chemin/vers/le/fichier" download="NOMDUFICHIER.pdf"> Lien </a>
+```
+
+### Lien nouvel onglet
+
+```html
+<a href="http://google.com" target="_blank"> google </a>
+```
+
+### Lien mail
+```html
+<a href="mailto:jeanson.pechin@gmail.com" >jeanson.pechin@gmail.com</a>
+```
+
+
+### Lien vers un endroit de la page
+```html
+<a href="#truc" >truc</a>
+
+
+<p id="truc"> fhjkdlfdnfdk </p>
+```
+
+
+## Balises ogp pour la miniature des partages
+
+```html
+<head>
+    ...
+    <title>Open Graph : pourquoi utiliser les balises OGP ?</title>
+    <meta property="og:title" content="Titre de la page" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://jeansonpechin.com" />
+    <meta property="og:image" content="https://jeansonpechin.com/images/UNBELLEIMAGE.jpg" />
+    <meta property="og:site_name" content="Jeanson Péchin" />
+...
+</head>
+
+```
