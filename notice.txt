@@ -1,0 +1,2 @@
+changer l'image OGP du biog.html
+changer les favicons
