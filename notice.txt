@@ -1,2 +1,2 @@
-changer l'image OGP du biog.html
+changer l'image OGP du biog.html et de musique.html
 changer les favicons
