@@ -190,3 +190,16 @@ aside a:hover {
     display: none;
   }
 }
+
+#fantome {
+  position: fixed;
+  left: 50%;
+  top: 300px;
+
+  /* largeur de l'image */
+  width: 50px;
+
+  pointer-events: none;
+
+  z-index: -1;
+}
