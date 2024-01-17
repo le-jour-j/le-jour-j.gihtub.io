@@ -1,14 +1,14 @@
 const FANTOMESPEED = 100;
 
-function initBouncingFantome() {
-  const element = document.getElementById("fantome");
+/**
+ * @param {HTMLElement} element
+ */
+function initBouncingFantome(element) {
   if (!element) return;
 
-  const screenWidth = innerWidth;
-  const screenHeight = innerHeight;
-
-  let fantomeX = 0;
-  let fantomeY = 0;
+  const { width, height } = element.getBoundingClientRect();
+  let fantomeX = Math.random() * (window.innerWidth - width);
+  let fantomeY = Math.random() * (window.innerHeight - height);
   let dirX = 1;
   let dirY = 1;
 
@@ -33,4 +33,8 @@ function initBouncingFantome() {
   requestAnimationFrame(updateFantome);
 }
 
-initBouncingFantome();
+const bouncingElements = Array.from(document.querySelectorAll(".bouncing"));
+
+bouncingElements.forEach((el) => {
+  initBouncingFantome(el);
+});

@@ -110,8 +110,6 @@ main {
   margin-bottom: 2rem;
 }
 
-
-
 hr {
   margin-block: 2rem;
   height: 1em;
@@ -191,15 +189,14 @@ aside a:hover {
   }
 }
 
-#fantome {
+.bouncing {
   position: fixed;
-  left: 50%;
-  top: 300px;
 
   /* largeur de l'image */
   width: 50px;
 
   pointer-events: none;
 
+  /* mettre an arrière plan */
   z-index: -1;
 }
