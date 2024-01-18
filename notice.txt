@@ -1,2 +1,15 @@
 changer l'image OGP du biog.html et de musique.html
 changer les favicons
+
+pour la taille des images flottantes
+.bouncing {
+  position: fixed;
+
+  /* largeur de l'image */
+  width: 50px;
+
+  pointer-events: none;
+
+  /* mettre an arrière plan */
+  z-index: -1;
+}
