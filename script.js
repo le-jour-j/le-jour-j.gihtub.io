@@ -19,8 +19,10 @@ function initBouncingFantome(element) {
     const deltaTime = (lastTime ? time - lastTime : 0) / 1000;
     lastTime = time;
 
-    if (fantomeX < 0 || fantomeX > window.innerWidth - width) dirX *= -1;
-    if (fantomeY < 0 || fantomeY > window.innerHeight - height) dirY *= -1;
+    if (dirX < 0 && fantomeX < 0) dirX = 1;
+    else if (dirX > 0 && fantomeX > window.innerWidth - width) dirX = -1;
+    if (dirY < 0 && fantomeY < 0) dirY = 1;
+    else if (dirY > 0 && fantomeY > window.innerHeight - height) dirY = -1;
 
     fantomeX += FANTOMESPEED * deltaTime * dirX;
     fantomeY += FANTOMESPEED * deltaTime * dirY;

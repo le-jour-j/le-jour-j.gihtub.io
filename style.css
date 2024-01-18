@@ -192,11 +192,16 @@ aside a:hover {
 .bouncing {
   position: fixed;
 
-  /* largeur de l'image */
-  width: 50px;
-
   pointer-events: none;
 
   /* mettre an arrière plan */
   z-index: -1;
+}
+
+.fantome {
+  width: 50px;
+}
+
+.truc {
+  width: 100px;
 }
