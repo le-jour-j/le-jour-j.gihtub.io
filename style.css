@@ -57,6 +57,8 @@ h4 {
   margin-bottom: 0.5em;
   text-align: center;
 }
+
+
 p {
   max-width: 66ch;
   margin-inline: auto;
@@ -72,6 +74,11 @@ a {
   text-decoration: none;
   color: var(--link);
 }
+
+main .current {
+  text-decoration: underline;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -179,6 +186,9 @@ aside ul {
 aside a {
   color: var(--text);
 }
+aside .current {
+  text-decoration: underline;
+}
 aside a:hover {
   color: var(--link);
 }
@@ -204,4 +214,12 @@ aside a:hover {
 
 .truc {
   width: 100px;
+}
+
+.machin {
+  width: 170px;
+}
+
+.chose {
+  width: 200px;
 }
