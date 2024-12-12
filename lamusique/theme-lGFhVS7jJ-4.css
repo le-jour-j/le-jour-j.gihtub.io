@@ -3,7 +3,7 @@
     --ul-list-style-type: square;
 }
 :root {
-    
+    --bg-overlay: hsl(0 0% 90% / 0%);
     --bg-1: hsl(0 0% 90%);
     --bg-1-90: hsl(0 0% 90% / 90%);
     --bg-1-overlay: hsl(0 0% 90% / 80%);
@@ -28,7 +28,7 @@
 
 @supports (color: oklch(0% 0% 0)) {
     :root {
-    
+    --bg-overlay: oklch(21.56% 0% 0 / 0%);
     --bg-1: oklch(21.56% 0% 0);
     --bg-1-90: oklch(21.56% 0% 0 / 90%);
     --bg-1-overlay: oklch(21.56% 0% 0 / 80%);
@@ -60,3 +60,14 @@
     src: local('Barlow'), url('barlow-v12-latin-regular.woff2') format('woff2');
 }
 body, button, input { font-family: 'Barlow', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+body::before {
+    background: linear-gradient(var(--bg-overlay), var(--bg-overlay)), url(background-PnarOu9GB0Y.jpg) center / cover;
+    content: '';
+    display: block;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
