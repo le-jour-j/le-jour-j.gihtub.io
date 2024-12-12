@@ -14,50 +14,6 @@ const ARTISTS = [
 const RELEASES = [
     {
     
-    cover: 'cover_160.jpg?p2V7_7_OfsU',
-    title: 'Fêtes foraines',
-    tracks: [
-        {
-    
-    number: '01',
-    title: 'caf musique',
-    url: 'fetes-foraines/1/'
-}
-,
-{
-    
-    number: '02',
-    title: 'fete foraine',
-    url: 'fetes-foraines/2/'
-}
-,
-{
-    
-    number: '03',
-    title: 'paella musique',
-    url: 'fetes-foraines/3/'
-}
-,
-{
-    
-    number: '04',
-    title: 'pate musique',
-    url: 'fetes-foraines/4/'
-}
-,
-{
-    
-    number: '05',
-    title: 'sonerimusic',
-    url: 'fetes-foraines/5/'
-}
-
-    ],
-    url: 'fetes-foraines/'
-}
-,
-{
-    
     cover: 'cover_160.jpg?-4oX7ExzP-k',
     title: 'Mimzi',
     tracks: [
@@ -586,6 +542,50 @@ const RELEASES = [
 
     ],
     url: 'les-dunes-vraiment/'
+}
+,
+{
+    
+    cover: 'cover_160.jpg?p2V7_7_OfsU',
+    title: 'fêtes foraines',
+    tracks: [
+        {
+    
+    number: '01',
+    title: 'caf musique',
+    url: 'fetes-foraines/1/'
+}
+,
+{
+    
+    number: '02',
+    title: 'fete foraine',
+    url: 'fetes-foraines/2/'
+}
+,
+{
+    
+    number: '03',
+    title: 'paella musique',
+    url: 'fetes-foraines/3/'
+}
+,
+{
+    
+    number: '04',
+    title: 'pate musique',
+    url: 'fetes-foraines/4/'
+}
+,
+{
+    
+    number: '05',
+    title: 'sonerimusic',
+    url: 'fetes-foraines/5/'
+}
+
+    ],
+    url: 'fetes-foraines/'
 }
 
 ];
