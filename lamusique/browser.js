@@ -14,6 +14,99 @@ const ARTISTS = [
 const RELEASES = [
     {
     
+    cover: 'cover_160.jpg?fUSSPvlL_J8',
+    title: 'le bruit des odeurs',
+    tracks: [
+        {
+    
+    number: '01',
+    title: 'youpi',
+    url: 'le-bruit-des-odeurs/1/'
+}
+,
+{
+    
+    number: '02',
+    title: 'destination cailloux',
+    url: 'le-bruit-des-odeurs/2/'
+}
+,
+{
+    
+    number: '03',
+    title: 'pédagogie',
+    url: 'le-bruit-des-odeurs/3/'
+}
+,
+{
+    
+    number: '04',
+    title: 'les ados',
+    url: 'le-bruit-des-odeurs/4/'
+}
+,
+{
+    
+    number: '05',
+    title: 'les maîtresses et les maîtres',
+    url: 'le-bruit-des-odeurs/5/'
+}
+,
+{
+    
+    number: '06',
+    title: 'sophie la giraffe',
+    url: 'le-bruit-des-odeurs/6/'
+}
+,
+{
+    
+    number: '07',
+    title: 'route 666',
+    url: 'le-bruit-des-odeurs/7/'
+}
+,
+{
+    
+    number: '08',
+    title: 'dog + drogues',
+    url: 'le-bruit-des-odeurs/8/'
+}
+,
+{
+    
+    number: '09',
+    title: 'canisophie',
+    url: 'le-bruit-des-odeurs/9/'
+}
+,
+{
+    
+    number: '10',
+    title: 'correspondance',
+    url: 'le-bruit-des-odeurs/10/'
+}
+,
+{
+    
+    number: '11',
+    title: 'toustes au chateau',
+    url: 'le-bruit-des-odeurs/11/'
+}
+,
+{
+    
+    number: '12',
+    title: 'miam le pipi',
+    url: 'le-bruit-des-odeurs/12/'
+}
+
+    ],
+    url: 'le-bruit-des-odeurs/'
+}
+,
+{
+    
     cover: 'cover_160.jpg?-4oX7ExzP-k',
     title: 'Mimzi',
     tracks: [
